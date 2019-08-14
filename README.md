@@ -3,7 +3,7 @@
 ---
 # Summary
 
-This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab (MIST Lab @ Polytechnique Montreal) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
+This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab ([MIST Lab @ Polytechnique Montreal](https://mistlab.ca)) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
 * Pupillometry (Pupil Labs Eye Tracker)
 
 <img src="img/pupillometer.png" width=353)> <img src="img/eye.png" width=300)>
