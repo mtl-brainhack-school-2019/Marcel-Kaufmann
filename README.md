@@ -3,7 +3,7 @@
 ---
 # Summary
 
-This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab (MIST Lab @ Polytechnique Montreal) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
+This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab ([MIST Lab @ Polytechnique Montreal](https://mistlab.ca)) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
 * Pupillometry (Pupil Labs Eye Tracker)
 
 <img src="img/pupillometer.png" width=353)> <img src="img/eye.png" width=300)>
@@ -17,7 +17,9 @@ This Brain Hack project is to create a processing pipeline for ECG and pupillome
 <img src="https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg")>
 </div>
 
-In addition, the idea is to use this pipeline to process signals that have been collected outside our lab. E.g., there is biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
+The collection pipeline has been established using ROS (the robot operating system) and biopac data is manually recorded for each participant. The analysis pipeline does not exist and synchronization/merging of data collected in ROS and via the Biopac software has yet to be implemented.
+
+In addition, the idea is to use this pipeline to process signals that have been collected outside of our lab. E.g., there is Biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
 
 # Datasets
 
@@ -32,9 +34,14 @@ The data that is going to be processed is unfortunately not openly available due
 * NeuroKit
 * Ipython Notebooks
 
-# Planned Deliverable
+# Planned Deliverables
 
 Ideally, at the end of this project, there will be a dockerized tool to process and visualize the collected and filtered data in *fancy* plots. The docker container could be use as a pure processing pipeline, but can contain a Notebook-Tutorial on how to process the data and use above mentioned tools. If possible, one of the outputs should be cognitive work load so that this data (output) can be used for future projects.
+
+# Planned Outputs
+* Heart Rate Variability
+* De-noised ECG
+* Cognitive Workload Measurement
 
 
 
