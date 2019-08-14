@@ -13,8 +13,9 @@ This Brain Hack project is to create a processing pipeline for ECG and pupillome
 ![Polar HR Monitor](https://www.polar.com/sites/default/files/product/main_images/h7_heart_rate_sensor2_main_action_30.jpg)
 
 * ECG, EDA from Biopac (as acq files)
-
-<img src="https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg" align="center")>
+<div style="display: flex; justify-content: center;">
+<img src="https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg")>
+</div>
 
 In addition, the idea is to use this pipeline to process signals that have been collected outside our lab. E.g., there is biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
 
