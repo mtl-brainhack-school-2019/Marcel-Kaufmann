@@ -34,7 +34,7 @@ The data that is going to be processed is unfortunately not openly available due
 * NeuroKit
 * Ipython Notebooks
 
-# Planned Deliverable
+# Planned Deliverables
 
 Ideally, at the end of this project, there will be a dockerized tool to process and visualize the collected and filtered data in *fancy* plots. The docker container could be use as a pure processing pipeline, but can contain a Notebook-Tutorial on how to process the data and use above mentioned tools. If possible, one of the outputs should be cognitive work load so that this data (output) can be used for future projects.
 
