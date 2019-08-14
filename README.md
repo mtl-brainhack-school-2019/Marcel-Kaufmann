@@ -14,7 +14,7 @@ This Brain Hack project is to create a processing pipeline for ECG and pupillome
 
 * ECG, EDA from Biopac (as acq files)
 
-![Biopac](https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg)
+<img src="https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg" align="center")>
 
 In addition, the idea is to use this pipeline to process signals that have been collected outside our lab. E.g., there is biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
 
