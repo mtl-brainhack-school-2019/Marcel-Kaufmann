@@ -5,6 +5,8 @@
 
 This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab (MIST Lab @ Polytechnique Montreal) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
 * Pupillometry (Pupil Labs Eye Tracker)
+![alt text](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/img/pupillometer.png =400x "Lab Member wearing a Pupil Labs eye tracker")
+
 * Heart rate and RR intervals (Polar 700 fitness tracker)
 * ECG, EDA from Biopac (as acq files)
 In addition, the idea is to use this pipeline to process signals that have been collected outside our lab. E.g., there is biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
