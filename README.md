@@ -43,5 +43,7 @@ Ideally, at the end of this project, there will be a dockerized tool to process 
 * De-noised ECG
 * Cognitive Workload Measurement
 
+![Overview](./img/overview.png )
+
 
 
