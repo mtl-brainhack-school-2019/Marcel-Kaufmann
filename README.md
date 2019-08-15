@@ -1,6 +1,10 @@
 # ECG Pupillometry Pipeline
 ### Brain Hack School 2019 Project by Marcel Kaufmann
 ---
+# Video Teaser of real world experiments
+
+<iframe width="966" height="543" src="https://www.youtube.com/embed/EUDIcQPEqhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Summary
 
 This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab ([MIST Lab @ Polytechnique Montreal](https://mistlab.ca)) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
