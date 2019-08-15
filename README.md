@@ -3,7 +3,7 @@
 ---
 # Video Teaser of real world experiments
 
-<iframe width="966" height="543" src="https://www.youtube.com/embed/EUDIcQPEqhk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/EUDIcQPEqhk/0.jpg)](http://www.youtube.com/watch?v=EUDIcQPEqhk "")
 
 # Summary
 
