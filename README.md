@@ -51,5 +51,9 @@ Ideally, at the end of this project, there will be a dockerized tool to process 
 # Project Overview
 ![Overview](./img/overview.png )
 
+# Acknowledgements
+<img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
+
+
 
 
