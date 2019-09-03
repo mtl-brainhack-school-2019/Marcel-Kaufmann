@@ -73,6 +73,22 @@ To visualize and reproduce the results, you can run this code using docker. The 
 ```bash
 docker pull marcelkaufmann/brain_hack
 ```
+Then you can launch the docker container using
+```bash
+docker run -it --rm -p 8888:8888 marcelkaufmann/brain_hack:latest
+```
+with this command port 8888 on your machine is linked to port 8888 on the docker and vice versa.
+
+Inside the docker container run in the home directory or where this projects code lives
+```bash
+jupyter notebook --ip 0.0.0.0 --allow-root 
+```
+You will then see a URL printed on the console which looks similar to this:
+![Overview](./img/dockerJupyter.png)
+
+Copy the link at the bottom of your console printout into a browser and then you can launch the Notebooks:
+* EvolvingNotebook.ipynb (Working notebook with full code)
+* BrainHackPresentation.ipynb (Notebook used during presentation)
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
