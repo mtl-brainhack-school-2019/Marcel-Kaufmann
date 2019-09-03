@@ -1,4 +1,4 @@
-# ECG Pupillometry Pipeline
+## ECG Pupillometry Pipeline
 ### Brain Hack School 2019 Project by Marcel Kaufmann
 ---
 # Video Introduction to this Brain Hack Project
@@ -41,20 +41,33 @@ Ideally, at the end of this project, there will be a dockerized tool to process 
 
 The data that is going to be processed is unfortunately not openly available due to ethics reasons. It is planned to add a personal or simulated dataset as an example.
 
-#### Tools I plan to use / want to learn
+# Project Progress and Learning Experience
+
+The project allowed me to learn about containerization with docker and exposed me extensively to Jupyter Notebooks. There is different ways to manage ones Python environment such as Anaconda and Pip. During the course of the Project I created two Jupyter Notebooks, one which evolved over time with different data visualization and analysis steps and another one for the final presentation. All code lives in this GitHub repository and is also available in a docker container.
+
+#### Tools and Techniques I used and learned during Brain Hack
 
 * <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" width="80" alt="Anaconda">
 * <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png?itok=erja9lKc" width="80" alt="Docker">
 * Pandas
-* NeuroKit
+* NeuroKit / HRVanalysis
 * Ipython Notebooks
+* Dynamic Time Warping
 
+#### Outputs
+With the scripts I created, I can calculate statistics in order to compare and correlate the following physiological signals:
 
-
-#### Planned Outputs
 * Heart Rate Variability
 * De-noised ECG
-* Cognitive Workload Measurement
+* Filtered Pupillometry
+
+A direct measurement of 
+* Cognitive Workload 
+has yet to be derived and implementd. Brain Hack allowed me to learn a lot about my data and helped me improve the recording as well as pre-processing steps for this project. The use of containers makes it easy to reproduce my current results. When working with container, it is important to keep in mind that one is working with snapshots and needs to save and commit work in progress properly (don't close your container by accident).  
+
+# Results
+
+To visualize and reproduce the results, you can run this code using docker.
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
