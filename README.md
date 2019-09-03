@@ -4,6 +4,7 @@
 # Video Introduction to this Brain Hack Project
 
 [![](http://img.youtube.com/vi/8ZVCNeX42_A/0.jpg)](http://www.youtube.com/watch/8ZVCNeX42_A "")
+(Click on image to play)
 
 # Summary
 
@@ -25,12 +26,22 @@ The collection pipeline has been established using ROS (the robot operating syst
 
 In addition, this pipeline could be used to process signals that have been collected outside of our lab. E.g., there is Biopac recordings that have been recorded inside of MRI scanners. This data is very noisy and could possibly be filtered based on the code base of this project.
 
-# Datasets
+# Project Definition and Overview
+
+To further define the project, the following figure shows a project overview:
+Starting point is the different data streams that exist in either a ROSbag or text (csv) format. The ROSbag has been decoded in a pre-processing step (https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/pre-processing/bag_to_csv.py), so that for this project the data can be imported into the jupyter notebooks easily.
+
+![Overview](./img/overview.png )
+
+#### Planned Deliverables
+
+Ideally, at the end of this project, there will be a dockerized tool to process and visualize the collected and filtered data in *fancy* plots. The docker container could be use as a pure processing pipeline, but can contain a Notebook-Tutorial on how to process the data and use above mentioned tools. If possible, one of the outputs should be cognitive work load so that this data (output) can be used for future projects.
+
+#### Datasets
 
 The data that is going to be processed is unfortunately not openly available due to ethics reasons. It is planned to add a personal or simulated dataset as an example.
 
-
-# Tools I plan to use / want to learn
+#### Tools I plan to use / want to learn
 
 * <img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" width="80" alt="Anaconda">
 * <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/vertical-logo-monochromatic.png?itok=erja9lKc" width="80" alt="Docker">
@@ -38,17 +49,12 @@ The data that is going to be processed is unfortunately not openly available due
 * NeuroKit
 * Ipython Notebooks
 
-# Planned Deliverables
 
-Ideally, at the end of this project, there will be a dockerized tool to process and visualize the collected and filtered data in *fancy* plots. The docker container could be use as a pure processing pipeline, but can contain a Notebook-Tutorial on how to process the data and use above mentioned tools. If possible, one of the outputs should be cognitive work load so that this data (output) can be used for future projects.
 
-# Planned Outputs
+#### Planned Outputs
 * Heart Rate Variability
 * De-noised ECG
 * Cognitive Workload Measurement
-
-# Project Overview
-![Overview](./img/overview.png )
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
