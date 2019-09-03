@@ -1,13 +1,13 @@
 # ECG Pupillometry Pipeline
 ### Brain Hack School 2019 Project by Marcel Kaufmann
 ---
-# Video Teaser of real world experiments
+# Video Introduction to this Brain Hack Project
 
 [![](http://img.youtube.com/vi/8ZVCNeX42_A/0.jpg)](http://www.youtube.com/watch/8ZVCNeX42_A "")
 
 # Summary
 
-This Brain Hack project is to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab ([MIST Lab @ Polytechnique Montreal](https://mistlab.ca)) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
+This Brain Hack project is about creating a processing pipeline for ECG and pupillometry data. The motivation behind this task is that our lab ([MIST Lab @ Polytechnique Montreal](https://mistlab.ca)) is currently conducting a Human-Robot-Interaction user study in which we collect the following data:
 * Pupillometry (Pupil Labs Eye Tracker)
 
 <img src="img/pupillometer.png" width=353)> <img src="img/eye.png" width=300)>
@@ -21,9 +21,9 @@ This Brain Hack project is to create a processing pipeline for ECG and pupillome
 <img src="https://www.biopac.com/wp-content/uploads/bsladv-300x300.jpg")>
 </div>
 
-The collection pipeline has been established using ROS (the robot operating system) and biopac data is manually recorded for each participant. The analysis pipeline does not exist and synchronization/merging of data collected in ROS and via the Biopac software has yet to be implemented.
+The collection pipeline has been established using ROS (the robot operating system), while the data from the biopac sensors is recorded manually for each participant. An analysis pipeline did not exist and the synchronization/merging of the collected data had not been implemented before Brain Hack.
 
-In addition, the idea is to use this pipeline to process signals that have been collected outside of our lab. E.g., there is Biopac recordings that have been recorded inside of MRI scanners. This data is very noisy, hence looking into different data pre-processing and cleaning techniques can be part of this project, too. 
+In addition, this pipeline could be used to process signals that have been collected outside of our lab. E.g., there is Biopac recordings that have been recorded inside of MRI scanners. This data is very noisy and could possibly be filtered based on the code base of this project.
 
 # Datasets
 
