@@ -73,7 +73,7 @@ To visualize and reproduce the results, you can run this code using docker. The 
 ```bash
 docker pull marcelkaufmann/brain_hack
 ```
-Then you can launch the docker container using
+Then you can launch the docker container using (it will launch into the Anaconda bh einvironment for this Brain Hack project):
 ```bash
 docker run -it --rm -p 8888:8888 marcelkaufmann/brain_hack:latest
 ```
