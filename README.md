@@ -69,7 +69,10 @@ has yet to be derived and implementd. Brain Hack allowed me to learn a lot about
 
 # Results
 
-To visualize and reproduce the results, you can run this code using docker.
+To visualize and reproduce the results, you can run this code using docker. The docker pull command is:
+```bash
+docker pull marcelkaufmann/brain_hack
+```
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
