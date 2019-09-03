@@ -3,7 +3,7 @@
 ---
 # Video Teaser of real world experiments
 
-[![](http://img.youtube.com/vi/8ZVCNeX42_A/0.jpg)](http://https://www.youtube.com/watch/8ZVCNeX42_A "")
+[![](http://img.youtube.com/vi/8ZVCNeX42_A/0.jpg)](http://www.youtube.com/watch/8ZVCNeX42_A "")
 
 # Summary
 
