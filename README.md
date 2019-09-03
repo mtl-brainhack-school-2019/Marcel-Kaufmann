@@ -61,8 +61,10 @@ With the scripts I created, I can calculate statistics in order to compare and c
 * De-noised ECG
 * Filtered Pupillometry
 
-A direct measurement of 
+A direct measurement of
+
 * Cognitive Workload 
+
 has yet to be derived and implementd. Brain Hack allowed me to learn a lot about my data and helped me improve the recording as well as pre-processing steps for this project. The use of containers makes it easy to reproduce my current results. When working with container, it is important to keep in mind that one is working with snapshots and needs to save and commit work in progress properly (don't close your container by accident).  
 
 # Results
