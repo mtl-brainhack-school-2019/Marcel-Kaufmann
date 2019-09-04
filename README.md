@@ -92,21 +92,30 @@ Copy the link at the bottom of your console printout into a browser and then you
 
 ## Selected Results as Graphs
 
+The following graphs have been slected as a subset from those within the Python Notebook. 
+
+#### Heart Rate and Variability
+We can see that the input data has been sampled at different rates and thus plotting this data into the same plot does not reveal much: 
 ![BeforeDTW](./img/beforeDTW.png)
 
+If dynamic time warping (DTW) is applied, it is possible to align both signals:
 ![AfterDTW](./img/DTWapplied.png)
 
+We can also look at different frequency components of the Heart Rate Variability. The variation in low frequencies can be an indicator for workload.
 ![FrequencyAnalysis](./img/FrequencyAnalysis.png)
 
+In addition, we can derive and visualize a set of statistical measures from the HRV data.
 ![HRVstats](./img/HRVstats.png)
 
+#### Pupillometry
+Here we show a screenshot of an interactive Plotly graph showing the Raw Pupil Data.
 ![PlotlyPupilRaw](./img/plotlyPupilRaw.png)
 
+The Raw data is filtered and can be plotted against different physiological measurements.
 ![plotlyPupilRaw_Raw](./img/plotlyPupilRaw_RR.png)
 
-
-
-
+All these graphs and statistics can be used to gain a first understanding of the collected data.
+The analysis has shown, that it is necessary to take different sample rates and filter techniques into account.
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
