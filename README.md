@@ -84,11 +84,29 @@ Inside the docker container run in the home directory or where this projects cod
 jupyter notebook --ip 0.0.0.0 --allow-root 
 ```
 You will then see a URL printed on the console which looks similar to this:
-![Overview](./img/dockerJupyter.png)
+![dockerJupyterConsole](./img/dockerJupyter.png)
 
 Copy the link at the bottom of your console printout into a browser and then you can launch the Notebooks:
 * EvolvingNotebook.ipynb (Working notebook with full code)
 * BrainHackPresentation.ipynb (Notebook used during presentation)
+
+## Selected Results as Graphs
+
+![BeforeDTW](./img/beforeDTW.png)
+
+![AfterDTW](./img/DTWapplied.png)
+
+![FrequencyAnalysis](./img/FrequencyAnalysis.png)
+
+![HRVstats](./img/HRVstats.png)
+
+![PlotlyPupilRaw](./img/plotlyPupilRaw.png)
+
+![plotlyPupilRaw_Raw](./img/plotlyPupilRaw_RR.png)
+
+
+
+
 
 # Acknowledgements
 <img src="img/logo_fondation_arbour.png" width=100 hspace=20)> </span> <img src="img/vanier_logo.png" width=200 hspace=20)>
