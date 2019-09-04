@@ -39,7 +39,7 @@ Ideally, at the end of this project, there will be a dockerized tool to process 
 
 #### Datasets
 
-The data that is going to be processed is unfortunately not openly available due to ethics reasons. It is planned to add a personal or simulated dataset as an example.
+The data that is going to be processed is unfortunately not openly available due to ethics reasons. A personal sample dataset has been added as an example of what the collected data can look like. Different experiment conditions are not reflected.
 
 # Project Progress and Learning Experience
 
