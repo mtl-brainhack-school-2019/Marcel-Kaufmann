@@ -5,7 +5,7 @@ backcall==0.1.0
 bidict==0.18.0
 bioread==1.0.4
 biosppy==0.6.1
-bleach==3.1.0
+bleach==3.1.2
 certifi==2019.6.16
 chardet==3.0.4
 chart-studio==1.0.0
